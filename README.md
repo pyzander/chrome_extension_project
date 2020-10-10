@@ -1,4 +1,7 @@
 # chrome_extension_project
+Changes color of the background 
+chrome extension can only be activated on developer.chrome websites 
+
 
 VS Code info
 Git info
