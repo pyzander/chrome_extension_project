@@ -25,4 +25,3 @@ chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
   }]);
 });
 
-});
