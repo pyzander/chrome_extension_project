@@ -1,0 +1,22 @@
+<!-- Introducing a user interface. 
+  This extension uses a button to change the background color.
+  Like the background script, this file needs to be designated as a popup in the manifest under page_action.
+  Because page_action is declared in the manifest, it is up to the extension to tell the browser when the user can interact with popup.html.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        height: 30px;
+        width: 30px;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="changeColor"></button>
+    <!--Include a script tag to popup.js in popup.html.-->
+    <script src="popup.js"></script>
+  </body>
+</html>
