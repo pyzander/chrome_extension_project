@@ -1,7 +1,13 @@
 {
-  
-  "name": "Getting Started Example",
+  "name": "Example extension",
   "version": "1.0",
   "description": "Build an Extension!",
+  
+  "permissions": ["storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  
   "manifest_version": 2
 }
